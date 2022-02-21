@@ -1,0 +1,66 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: tomato;
+}
+html {
+  font-size: 10px;
+}
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+header {
+  background-color: beige;
+  height: 10rem;
+  font-family: "Shadows Into Light", cursive;
+  color: rgba(20, 20, 20, 0.918);
+  font-weight: bold;
+  font-size: xx-large;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.cards {
+  padding-top: 8rem;
+  padding-left: 8rem;
+  flex-direction: row;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 30rem;
+  height: 37rem;
+  background-color: beige;
+  border-radius: 2rem;
+  margin: 0 5rem 5rem 0;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+}
+img {
+  width: 30rem;
+  height: 25rem;
+  border-radius: 2rem 2rem 0 0;
+  display: block;
+}
+.card_info {
+  margin: 1rem 0 0 1.5rem;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: medium;
+  background-color: beige;
+}
+span,
+h4,
+a {
+  margin: 0.5rem;
+  background-color: beige;
+}
+button {
+  padding: 0.2rem;
+  background-color: beige;
+}
+.card:hover {
+  transform: scale(1.15, 1.15);
+}
